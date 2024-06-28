@@ -13,7 +13,6 @@ body {
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
-    ;
 }
 
 .titulo-destaque {
@@ -21,7 +20,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,6 +28,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -42,8 +44,9 @@ body {
 }
 
 .apresentacao__links {
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
+    padding: 0px 10px;
 }
 
 .apresentacao__links__link {
@@ -58,6 +61,10 @@ body {
     color: #000;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+
+
     /*quando o valor do padding for definido ele se replicará para todos os lados, e se quiser por exemplo só para
     um lado especifico, por exemplo somente para o vertical (|) temos que definir o valor para horizontal tambem
    como no caso acima, portanto, será de 0, dessa forma o horizontal permanece do tamanho default */ 
